@@ -14,6 +14,5 @@
 // 13.33vw = 50px
 ```
 
-
-## resources:
-+ https://github.com/afeiship/generator-webkit-sassui
+## resources
++ https://3g.163.com/touch/#/
