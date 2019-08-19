@@ -2,8 +2,6 @@
 > Rem solution based on vw and media query.
 
 ## usage
-+ https://afeiship.github.io/webkit-sass-rem/
-
 ```scss
 @import 'node_modules/webkit-sass-rem/dist/webkit-sass-rem.scss';
 
