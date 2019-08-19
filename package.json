@@ -1,0 +1,27 @@
+{
+  "name": "webkit-sass-rem",
+  "version": "1.0.0",
+  "description": "Rem solution based on vw and media query.",
+  "homepage": "https://github.com/afeiship/webkit-sass-rem",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "gulp test",
+    "release": "gulp && gulp test"
+  },
+  "main": "dist/webkit-sass-rem.scss",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "del": "^2.2.1",
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "yargs": "^4.7.1"
+  }
+}
