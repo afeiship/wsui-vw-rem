@@ -41,7 +41,6 @@ $wsui-vw-rem-options: (
 ```
 
 ## resources
-- https://afeiship.github.io/wsui-vw-rem/
 - https://3g.163.com/touch/#/
 - https://blog.csdn.net/chi1130/article/details/82844489
 - https://blog.csdn.net/lishihong108/article/details/52290021
