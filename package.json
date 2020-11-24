@@ -28,5 +28,16 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "sass",
+    "rem",
+    "resolution",
+    "wsui",
+    "vw",
+    "meida-query",
+    "percentage",
+    "viewport",
+    "scale"
+  ]
 }
