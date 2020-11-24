@@ -1,8 +1,9 @@
 (function() {
   'use strict';
 
-  const gulp = require('gulp');
-  const fs = require('fs');
+  var gulp = require('gulp');
+  var path = require('path');
+  var fs = require('fs');
 
   //import
   fs.readdirSync('./build').map(function(file) {

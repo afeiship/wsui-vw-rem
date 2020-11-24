@@ -1,65 +1,68 @@
-/*webkit-sass-rem Start*/
+/*!
+ * name: @jswork/wsui-vw-rem
+ * description: Rem solution based on vw and media query.
+ * homepage: https://github.com/afeiship/wsui-vw-rem
+ * version: 1.0.0
+ * date: 2020-11-24 17:27:37
+ * license: MIT
+ */
+/*wsui-vw-rem Start*/
 html {
-  font-size: 13.33333vw; }
+  font-size: 13.3333px; }
 
 @media screen and (max-width: 320px) {
   html {
-    font-size: 42.667px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 321px) and (max-width: 360px) {
-  html {
-    font-size: 48px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 361px) and (max-width: 375px) {
-  html {
-    font-size: 50px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 376px) and (max-width: 393px) {
-  html {
-    font-size: 52.4px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 394px) and (max-width: 412px) {
-  html {
-    font-size: 54.93px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 413px) and (max-width: 414px) {
-  html {
-    font-size: 55.2px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 415px) and (max-width: 480px) {
-  html {
-    font-size: 64px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 481px) and (max-width: 540px) {
-  html {
-    font-size: 72px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 541px) and (max-width: 640px) {
-  html {
-    font-size: 85.33px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 641px) and (max-width: 720px) {
-  html {
-    font-size: 96px;
-    font-size: 13.33333vw; } }
-
-@media screen and (min-width: 721px) and (max-width: 768px) {
-  html {
-    font-size: 102.4px;
-    font-size: 13.33333vw; } }
+    font-size: 42.6667px;
+    font-size: 13.3333px; } }
 
 @media screen and (min-width: 769px) {
   html {
     font-size: 102.4px;
-    font-size: 13.33333vw; } }
+    font-size: 13.3333px; } }
 
-/*webkit-sass-rem End*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 48px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 50px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 376px) and (max-width: 393px) {
+  html {
+    font-size: 52.4px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 394px) and (max-width: 414px) {
+  html {
+    font-size: 55.2px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 415px) and (max-width: 480px) {
+  html {
+    font-size: 64px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 481px) and (max-width: 540px) {
+  html {
+    font-size: 72px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 541px) and (max-width: 640px) {
+  html {
+    font-size: 85.3333px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 641px) and (max-width: 720px) {
+  html {
+    font-size: 96px;
+    font-size: 13.3333px; } }
+
+@media screen and (min-width: 721px) and (max-width: 768px) {
+  html {
+    font-size: 102.4px;
+    font-size: 13.3333px; } }
+
+/*wsui-vw-rem End*/

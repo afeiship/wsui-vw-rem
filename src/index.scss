@@ -1,0 +1,67 @@
+/*wsui-vw-rem Start*/
+$wsui-vw-rem-options: (
+  std-width: 375,
+  std-size: 50,
+  list: (
+    320,
+    360,
+    375,
+    393,
+    414,
+    480,
+    540,
+    640,
+    720,
+    768,
+  ),
+) !default;
+
+@mixin wsui-vw-rem($options: $wsui-vw-rem-options) {
+  // configurations:
+  $std-width: map-get($wsui-vw-rem-options, std-width);
+  $std-size: map-get($wsui-vw-rem-options, std-size);
+  $list: map-get($wsui-vw-rem-options, list);
+
+  // calcuations:
+  $vw-size: $std-size * 100 / $std-width;
+  $vw-font-size: #{$vw-size}px;
+
+  $len: length($list);
+  $first: nth($list, 1);
+  $last: nth($list, $len);
+
+  html {
+    font-size: $vw-font-size;
+  }
+
+  @media screen and (max-width: #{$first}px) {
+    html {
+      font-size: #{$std-size * $first/$std-width}px;
+      font-size: $vw-font-size;
+    }
+  }
+
+  @media screen and (min-width: #{$last + 1}px) {
+    html {
+      font-size: #{$std-size * $last/$std-width}px;
+      font-size: $vw-font-size;
+    }
+  }
+
+  @for $i from 1 to $len {
+    $value: nth($list, $i);
+    $current: $value + 1;
+    $next: nth($list, $i + 1);
+
+    @media screen and (min-width: #{$current}px) and (max-width: #{$next}px) {
+      html {
+        font-size: #{$std-size * $next/$std-width}px;
+        font-size: $vw-font-size;
+      }
+    }
+  }
+}
+
+@include wsui-vw-rem();
+
+/*wsui-vw-rem End*/
