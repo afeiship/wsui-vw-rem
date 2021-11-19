@@ -1,8 +1,8 @@
 {
   "name": "@jswork/wsui-vw-rem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rem solution based on vw and media query.",
-  "homepage": "https://github.com/afeiship/wsui-vw-rem",
+  "homepage": "https://js.work",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -39,5 +39,9 @@
     "percentage",
     "viewport",
     "scale"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/wsui-vw-rem.git"
+  }
 }
