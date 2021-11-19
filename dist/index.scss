@@ -1,12 +1,3 @@
-/*!
- * name: @jswork/wsui-vw-rem
- * description: Rem solution based on vw and media query.
- * homepage: https://github.com/afeiship/wsui-vw-rem
- * version: 1.0.0
- * date: 2020-11-24 17:32:12
- * license: MIT
- */
-
 /*wsui-vw-rem Start*/
 $wsui-vw-rem-options: (
   std-width: 375,
@@ -70,7 +61,4 @@ $wsui-vw-rem-options: (
     }
   }
 }
-
-@include wsui-vw-rem();
-
 /*wsui-vw-rem End*/

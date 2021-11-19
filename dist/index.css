@@ -3,10 +3,11 @@
  * description: Rem solution based on vw and media query.
  * homepage: https://github.com/afeiship/wsui-vw-rem
  * version: 1.0.0
- * date: 2020-11-24 17:32:12
+ * date: 2021-11-19 09:09:46
  * license: MIT
  */
 /*wsui-vw-rem Start*/
+/*wsui-vw-rem End*/
 html {
   font-size: 13.3333px; }
 
@@ -64,5 +65,3 @@ html {
   html {
     font-size: 102.4px;
     font-size: 13.3333px; } }
-
-/*wsui-vw-rem End*/
