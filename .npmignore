@@ -12,3 +12,4 @@ Rakefile
 server.js
 .prettierrc
 .release-it.json
+.nvmrc

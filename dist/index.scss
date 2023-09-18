@@ -1,7 +1,7 @@
 /*wsui-vw-rem Start*/
 $wsui-vw-rem-options: (
   std-width: 375,
-  std-size: 50,
+  std-size: 10,
   list: (
     320,
     360,
@@ -24,7 +24,7 @@ $wsui-vw-rem-options: (
 
   // calcuations:
   $vw-size: $std-size * 100 / $std-width;
-  $vw-font-size: #{$vw-size}px;
+  $vw-font-size: #{$vw-size}vw;
 
   $len: length($list);
   $first: nth($list, 1);
