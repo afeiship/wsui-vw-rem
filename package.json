@@ -1,6 +1,6 @@
 {
   "name": "@jswork/wsui-vw-rem",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rem solution based on vw and media query.",
   "homepage": "https://js.work",
   "author": {
