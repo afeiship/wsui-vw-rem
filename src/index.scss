@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 /*wsui-vw-rem Start*/
 $wsui-vw-rem-options: (
   std-width: 375,
@@ -23,7 +25,9 @@ $wsui-vw-rem-options: (
   $list: map-get($wsui-vw-rem-options, list);
 
   // calcuations:
-  $vw-size: $std-size * 100 / $std-width;
+  // $vw-size: $std-size * 100 / $std-width;
+  // use dart sass: $std-size * 100 / $std-width;
+  $vw-size: math.div($std-size * 100, $std-width);
   $vw-font-size: #{$vw-size}vw;
 
   $len: length($list);
@@ -36,14 +40,14 @@ $wsui-vw-rem-options: (
 
   @media screen and (max-width: #{$first}px) {
     html {
-      font-size: #{$std-size * $first/$std-width}px;
+      font-size: math.div($std-size * $first, $std-width) + px;
       font-size: $vw-font-size;
     }
   }
 
   @media screen and (min-width: #{$last + 1}px) {
     html {
-      font-size: #{$std-size * $last/$std-width}px;
+      font-size: math.div($std-size * $last, $std-width) + px;
       font-size: $vw-font-size;
     }
   }
@@ -55,7 +59,7 @@ $wsui-vw-rem-options: (
 
     @media screen and (min-width: #{$current}px) and (max-width: #{$next}px) {
       html {
-        font-size: #{$std-size * $next/$std-width}px;
+        font-size: math.div($std-size * $next, $std-width) + px;
         font-size: $vw-font-size;
       }
     }
