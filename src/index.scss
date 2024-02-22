@@ -3,28 +3,13 @@
 /*wsui-vw-rem Start*/
 $wsui-vw-rem-screen-width: 375px !default;
 $wsui-vw-rem-base-font-size: 10px !default;
-$wsui-vw-rem-options: (
-  std-width: $wsui-vw-rem-screen-width,
-  std-size: $wsui-vw-rem-base-font-size,
-  list: (
-    320,
-    360,
-    375,
-    393,
-    414,
-    480,
-    540,
-    640,
-    720,
-    768,
-  ),
-) !default;
+$wsui-vw-rem-media-list: ( 320, 360, 375, 393, 414, 480, 540, 640, 720, 768 ) !default;
 
-@mixin wsui-vw-rem($options: $wsui-vw-rem-options) {
+@mixin wsui-vw-rem() {
   // configurations:
-  $std-width: map-get($wsui-vw-rem-options, std-width);
-  $std-size: map-get($wsui-vw-rem-options, std-size);
-  $list: map-get($wsui-vw-rem-options, list);
+  $std-width: $wsui-vw-rem-screen-width;
+  $std-size: $wsui-vw-rem-base-font-size;
+  $list: $wsui-vw-rem-media-list;
 
   // calcuations:
   // $vw-size: $std-size * 100 / $std-width;
