@@ -15,10 +15,10 @@ npm i @jswork/wsui-vw-rem
 ```scss
 @import '~@jswork/wsui-vw-rem';
 
-// based: 750px 
+// based: 750px
 // 13.33vw = 100px
 
-// based: 375px 
+// based: 375px
 // 13.33vw = 50px
 
 // you can customize options:
@@ -38,6 +38,10 @@ $wsui-vw-rem-options: (
     768,
   ),
 ) !default;
+
+// OR (presets for tailwindcss)
+$wsui-vw-rem-screen-width: 375px !default;
+$wsui-vw-rem-base-font-size: 16px !default;
 ```
 
 ## resources
@@ -59,4 +63,3 @@ Code released under [the MIT license](https://github.com/afeiship/wsui-vw-rem/bl
 
 [download-image]: https://img.shields.io/npm/dm/@jswork/wsui-vw-rem
 [download-url]: https://www.npmjs.com/package/@jswork/wsui-vw-rem
-

@@ -1,9 +1,11 @@
 @use 'sass:math';
 
 /*wsui-vw-rem Start*/
+$wsui-vw-rem-screen-width: 375px !default;
+$wsui-vw-rem-base-font-size: 10px !default;
 $wsui-vw-rem-options: (
-  std-width: 375,
-  std-size: 10,
+  std-width: $wsui-vw-rem-screen-width,
+  std-size: $wsui-vw-rem-base-font-size,
   list: (
     320,
     360,
