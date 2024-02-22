@@ -22,22 +22,9 @@ npm i @jswork/wsui-vw-rem
 // 13.33vw = 50px
 
 // you can customize options:
-$wsui-vw-rem-options: (
-  std-width: 375,
-  std-size: 50,
-  list: (
-    320,
-    360,
-    375,
-    393,
-    414,
-    480,
-    540,
-    640,
-    720,
-    768,
-  ),
-) !default;
+$wsui-vw-rem-screen-width: 375px !default;
+$wsui-vw-rem-base-font-size: 10px !default;
+$wsui-vw-rem-media-list: ( 320, 360, 375, 393, 414, 480, 540, 640, 720, 768 ) !default;
 
 // OR (presets for tailwindcss)
 $wsui-vw-rem-screen-width: 375px !default;
