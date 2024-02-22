@@ -10,5 +10,5 @@
     require('./build/' + file);
   });
 
-  gulp.task('default', gulp.series(['clean', 'styles', 'styles-dist']));
+  gulp.task('default', gulp.series(['clean', 'styles', 'styles-tailwind']));
 })();

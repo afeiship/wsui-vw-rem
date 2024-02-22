@@ -1,4 +1,4 @@
-(function () {
+(function() {
   'use strict';
 
   var gulp = require('gulp');
@@ -9,19 +9,19 @@
   });
 
   //styles
-  gulp.task('styles', function () {
+  gulp.task('styles', function() {
     return gulp
       .src('src/index.scss')
       .pipe(gulp.dest('dist'));
   });
 
-  gulp.task('styles-dist', function () {
+  gulp.task('styles-tailwind', function() {
     return gulp
-      .src('src/index-dist.scss')
+      .src('src/tailwind.scss')
       .pipe($.jswork.pkgHeader())
-      .pipe(sass({ precision: 4}))
+      .pipe(sass({ precision: 4 }))
       .pipe($.postcss([autoprefixer()]))
-      .pipe($.rename('index.css'))
+      .pipe($.rename('tailwind.dist.css'))
       .pipe(gulp.dest('dist'));
   });
 })();

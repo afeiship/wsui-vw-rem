@@ -1,0 +1,4 @@
+@import "./index.scss";
+$wsui-vw-rem-screen-width: 750px;
+$wsui-vw-rem-base-font-size: 32px;
+@include wsui-vw-rem();
